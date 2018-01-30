@@ -9,12 +9,30 @@ import edu.illinois.cs.cs125.lib.mazemaker.Maze;
  */
 @SuppressWarnings("checkstyle:emptyblock")
 public class SolveMaze {
+     while (isFinished() == false)
 
-    /**
-     * Implement your maze solving algorithm in the main method below.
-     *
-     * @param unused unused input arguments
-     */
+    {
+        turnleft();
+        if (canMove() == false) {
+            turnRight();
+            move;
+            If(canMove() == false) {
+                turnright();
+            }
+  else{
+                move();
+            }
+            Else {
+                turnLeft;
+                move;
+            }
+        }
+    }
+        /**
+         * Implement your maze solving algorithm in the main method below.
+         *
+         * @param unused unused input arguments
+         */
 
     public static void main(final String[] unused) {
         /*
